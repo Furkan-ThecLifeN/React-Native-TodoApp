@@ -2,7 +2,6 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
 import Todo from "./components/Todo";
-import TodoItem from "./components/TodoItem";
 
 export default function App() {
   return (
@@ -15,7 +14,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#EAEAEA ",
+    backgroundColor: "#EAEAEA",
     justifyContent: "center",
     alignItems: "center",
   },

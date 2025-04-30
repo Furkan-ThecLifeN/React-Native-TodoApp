@@ -16,12 +16,13 @@
     "expo-status-bar": "~2.0.1",
     "mysimpleapp": "file:",
     "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react-dom": "^18.3.1",
     "react-native": "0.76.9",
-    "react-native-web": "~0.19.13"
+    "react-native-web": "^0.19.13"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@expo/webpack-config": "^19.0.1"
   },
   "private": true
 }
